@@ -1,0 +1,55 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <h1>Collage Web App 
+          
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "selfie" to take the picture for the collage.</h3>
+            <br>
+        </div>
+
+        <p>Press the "Start" button to start your camera</p>
+        <button id="startBtn" onclick="start()" class="btn btn-info">Start</button>
+        <br>
+        <label>Your webcam: </label>
+        <div id="cameraDiv" >
+
+        </div>
+        <br>
+
+        <label>Your picture will be displayed here: </label>
+        <div id="selfieDiv1">
+            
+        </div>
+        <div id="selfieDiv2">
+            
+        </div>
+        <div id="selfieDiv3">
+            
+        </div>
+        <div class="copyright_footer">
+            Developed by Vettri
+        </div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
